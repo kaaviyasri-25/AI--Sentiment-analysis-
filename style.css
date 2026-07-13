@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+
+/* Body */
+
+body{
+    background:linear-gradient(
+        135deg,
+        #e3f2fd,
+        #ffffff,
+        #dbeafe
+    );
+    min-height:100vh;
+}
+
+
+/* Navbar */
+
+.navbar{
+    box-shadow:0 5px 20px rgba(0,0,0,0.15);
+}
+
+
+.navbar-brand{
+    font-size:24px;
+}
+
+
+/* Hero Section */
+
+.hero{
+    padding:60px 0;
+}
+
+
+/* Main Card */
+
+.card{
+
+    border-radius:25px;
+
+    border:none;
+
+    background:rgba(255,255,255,0.85);
+
+    backdrop-filter:blur(10px);
+
+}
+
+
+/* Title */
+
+h1{
+
+    font-size:42px;
+
+    font-weight:700;
+
+}
+
+
+/* Text Area */
+
+textarea{
+
+    border-radius:15px !important;
+
+    border:2px solid #0d6efd !important;
+
+    padding:20px;
+
+    font-size:18px;
+
+    resize:none;
+
+}
+
+
+textarea:focus{
+
+    box-shadow:0 0 15px rgba(13,110,253,0.4) !important;
+
+}
+
+
+/* Analyze Button */
+
+.btn-primary{
+
+    border-radius:30px;
+
+    padding:12px 35px;
+
+    font-size:18px;
+
+    transition:0.3s;
+
+}
+
+
+.btn-primary:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:0 10px 20px rgba(13,110,253,0.3);
+
+}
+
+
+/* Prediction Box */
+
+
+.alert{
+
+    border-radius:20px;
+
+    font-size:22px;
+
+    animation:fade 0.8s;
+
+}
+
+
+/* Animation */
+
+@keyframes fade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+/* Footer */
+
+footer{
+
+    font-size:16px;
+
+}
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:768px){
+
+    h1{
+
+        font-size:30px;
+
+    }
+
+
+    .hero{
+
+        padding:30px 15px;
+
+    }
+
+}
